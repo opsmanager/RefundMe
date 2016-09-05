@@ -5,5 +5,7 @@ angular.module('app.services', [])
 }])
 
 .service('BlankService', [function(){
-
+  this.sayHello = function(){
+    alert('hello');
+  }
 }]);
